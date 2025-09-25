@@ -13,6 +13,15 @@ There are three main features:
 - A proposal generator that creates tailored proposal texts based on client requirements.
 
 ## Environment Setup
+
+## Conda Environment
+Create a conda environment using the provided environment.yml file:
+```bash
+conda env create -f environment.yml
+conda activate llm-rag-test
+```
+
+### OpenAI API Key
 You need to add your OpenAI API key in a .env file in the root of the project:
 ```
 OPENAI_API_KEY=your_openai_api_key
